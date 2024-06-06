@@ -1,0 +1,63 @@
+/*body 
+{
+	background-image: url(uploads/background.jpg);
+}*/
+
+#headersection
+{
+	padding:5px;
+}
+
+#headersection h1
+{
+	font-family: cursive;
+}
+
+input
+{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#dropbox
+{
+	padding: 10px;
+	border-radius: 5px;
+	width: 20%;
+
+}
+
+#registerbutton
+{
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 15px;
+	background-color: blue;
+	color:white;
+}
+
+#address
+{
+	width:30%;
+}
+
+#imagepart
+{
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	width: 28%;
+}
+#role
+{
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	width: 28%;
+}
+
+#role select
+{
+	padding: 10px;
+	border-radius: 5px;
+}

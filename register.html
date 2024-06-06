@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Online Voting System</title>
+	<link rel="stylesheet"  href="style.css">
+	<style>
+		.registerbody
+		{
+			border:1px solid black;
+			width: 35%;
+			height: 81vh;
+			padding: 3px;
+			background-color: #b3e7ff;
+			border-radius: 18px;
+			background: ;
+			box-shadow:  27px 27px 82px #6c6c6c,
+             -27px -27px 82px #ffffff;
+			
+		}
+		
+		#imagepart,#role
+		{
+			width: 80%;
+			background-color: white;
+		}
+		#address
+		{
+			width: 85%;
+		}
+
+		body
+		{
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-image:linear-gradient(45deg,orange ,white ,green);
+		}
+
+	</style>
+</head>
+
+<body>
+	<center>
+	<div id="headersection">
+			<h1> Online Voting System </h1>
+			<hr>
+	</div>
+
+
+	<div class="registerbody">
+		<h3>Registration</h3>
+	<form action="register.php" method="POST" enctype="multipart/form-data">
+		<input type="text" name="name" placeholder="Enter name">
+		<input type="number" name="mobile" placeholder="Enter mobile"><br><br>
+		<input type="password" name="password" placeholder="Password">
+		<input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+		<input  id="address" type="text" name="address" placeholder="Address"><br><br>
+		
+			<div id="imagepart">
+			Upload image : <input type="file" name="photo">
+			</div>
+			<br>
+
+			<div id="role">
+				Select your role :<select name="role"  >
+		                 <option value="1">Voter</option>
+                         <option value="2">Group</option>
+	                 </select>
+			</div>	
+			<br>
+	    
+
+	    <button id="registerbutton">Register</button><br><br>
+	    Already User? <a href="index.html"> Login here </a>
+	</form>
+	</div>
+	
+	</center>
+</body>
+</html>
